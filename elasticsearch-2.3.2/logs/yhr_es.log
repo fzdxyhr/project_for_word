@@ -1,0 +1,88 @@
+[2017-04-19 11:56:51,666][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: Java version: Oracle Corporation 1.7.0_45 [Java HotSpot(TM) 64-Bit Server VM 24.45-b08] suffers from critical bug https://bugs.openjdk.java.net/browse/JDK-8024830 which can cause data corruption.
+Please upgrade the JVM, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+If you absolutely cannot upgrade, please add -XX:-UseSuperWord to the JAVA_OPTS environment variable.
+Upgrading is preferred, this workaround will result in degraded performance.
+	at org.elasticsearch.bootstrap.JVMCheck.check(JVMCheck.java:123)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:268)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-04-19 11:56:53,887][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: Java version: Oracle Corporation 1.7.0_45 [Java HotSpot(TM) 64-Bit Server VM 24.45-b08] suffers from critical bug https://bugs.openjdk.java.net/browse/JDK-8024830 which can cause data corruption.
+Please upgrade the JVM, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+If you absolutely cannot upgrade, please add -XX:-UseSuperWord to the JAVA_OPTS environment variable.
+Upgrading is preferred, this workaround will result in degraded performance.
+	at org.elasticsearch.bootstrap.JVMCheck.check(JVMCheck.java:123)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:268)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-04-19 11:56:55,441][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: Java version: Oracle Corporation 1.7.0_45 [Java HotSpot(TM) 64-Bit Server VM 24.45-b08] suffers from critical bug https://bugs.openjdk.java.net/browse/JDK-8024830 which can cause data corruption.
+Please upgrade the JVM, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+If you absolutely cannot upgrade, please add -XX:-UseSuperWord to the JAVA_OPTS environment variable.
+Upgrading is preferred, this workaround will result in degraded performance.
+	at org.elasticsearch.bootstrap.JVMCheck.check(JVMCheck.java:123)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:268)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-04-19 11:56:59,354][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: Java version: Oracle Corporation 1.7.0_45 [Java HotSpot(TM) 64-Bit Server VM 24.45-b08] suffers from critical bug https://bugs.openjdk.java.net/browse/JDK-8024830 which can cause data corruption.
+Please upgrade the JVM, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+If you absolutely cannot upgrade, please add -XX:-UseSuperWord to the JAVA_OPTS environment variable.
+Upgrading is preferred, this workaround will result in degraded performance.
+	at org.elasticsearch.bootstrap.JVMCheck.check(JVMCheck.java:123)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:268)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-04-19 11:57:03,684][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: Java version: Oracle Corporation 1.7.0_45 [Java HotSpot(TM) 64-Bit Server VM 24.45-b08] suffers from critical bug https://bugs.openjdk.java.net/browse/JDK-8024830 which can cause data corruption.
+Please upgrade the JVM, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+If you absolutely cannot upgrade, please add -XX:-UseSuperWord to the JAVA_OPTS environment variable.
+Upgrading is preferred, this workaround will result in degraded performance.
+	at org.elasticsearch.bootstrap.JVMCheck.check(JVMCheck.java:123)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:268)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-04-19 11:57:59,678][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: Java version: Oracle Corporation 1.7.0_45 [Java HotSpot(TM) 64-Bit Server VM 24.45-b08] suffers from critical bug https://bugs.openjdk.java.net/browse/JDK-8024830 which can cause data corruption.
+Please upgrade the JVM, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+If you absolutely cannot upgrade, please add -XX:-UseSuperWord to the JAVA_OPTS environment variable.
+Upgrading is preferred, this workaround will result in degraded performance.
+	at org.elasticsearch.bootstrap.JVMCheck.check(JVMCheck.java:123)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:268)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-04-19 11:58:02,433][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: Java version: Oracle Corporation 1.7.0_45 [Java HotSpot(TM) 64-Bit Server VM 24.45-b08] suffers from critical bug https://bugs.openjdk.java.net/browse/JDK-8024830 which can cause data corruption.
+Please upgrade the JVM, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+If you absolutely cannot upgrade, please add -XX:-UseSuperWord to the JAVA_OPTS environment variable.
+Upgrading is preferred, this workaround will result in degraded performance.
+	at org.elasticsearch.bootstrap.JVMCheck.check(JVMCheck.java:123)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:268)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-04-19 11:58:03,984][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: Java version: Oracle Corporation 1.7.0_45 [Java HotSpot(TM) 64-Bit Server VM 24.45-b08] suffers from critical bug https://bugs.openjdk.java.net/browse/JDK-8024830 which can cause data corruption.
+Please upgrade the JVM, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+If you absolutely cannot upgrade, please add -XX:-UseSuperWord to the JAVA_OPTS environment variable.
+Upgrading is preferred, this workaround will result in degraded performance.
+	at org.elasticsearch.bootstrap.JVMCheck.check(JVMCheck.java:123)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:268)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-04-19 11:58:05,332][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: Java version: Oracle Corporation 1.7.0_45 [Java HotSpot(TM) 64-Bit Server VM 24.45-b08] suffers from critical bug https://bugs.openjdk.java.net/browse/JDK-8024830 which can cause data corruption.
+Please upgrade the JVM, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+If you absolutely cannot upgrade, please add -XX:-UseSuperWord to the JAVA_OPTS environment variable.
+Upgrading is preferred, this workaround will result in degraded performance.
+	at org.elasticsearch.bootstrap.JVMCheck.check(JVMCheck.java:123)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:268)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-04-19 11:58:06,689][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: Java version: Oracle Corporation 1.7.0_45 [Java HotSpot(TM) 64-Bit Server VM 24.45-b08] suffers from critical bug https://bugs.openjdk.java.net/browse/JDK-8024830 which can cause data corruption.
+Please upgrade the JVM, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+If you absolutely cannot upgrade, please add -XX:-UseSuperWord to the JAVA_OPTS environment variable.
+Upgrading is preferred, this workaround will result in degraded performance.
+	at org.elasticsearch.bootstrap.JVMCheck.check(JVMCheck.java:123)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:268)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-04-19 11:58:24,736][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: Java version: Oracle Corporation 1.7.0_45 [Java HotSpot(TM) 64-Bit Server VM 24.45-b08] suffers from critical bug https://bugs.openjdk.java.net/browse/JDK-8024830 which can cause data corruption.
+Please upgrade the JVM, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+If you absolutely cannot upgrade, please add -XX:-UseSuperWord to the JAVA_OPTS environment variable.
+Upgrading is preferred, this workaround will result in degraded performance.
+	at org.elasticsearch.bootstrap.JVMCheck.check(JVMCheck.java:123)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:268)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)

@@ -1,0 +1,73 @@
+[2017-03-24 15:54:59,938][INFO ][node                     ] [Shatterstar] stopping ...
+[2017-03-24 15:55:02,541][INFO ][node                     ] [Shatterstar] stopped
+[2017-03-24 15:55:02,542][INFO ][node                     ] [Shatterstar] closing ...
+[2017-03-24 15:55:02,946][INFO ][node                     ] [Shatterstar] closed
+[2017-03-24 15:55:21,067][INFO ][node                     ] [Ape-X] version[2.3.2], pid[17532], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2017-03-24 15:55:21,089][INFO ][node                     ] [Ape-X] initializing ...
+[2017-03-24 15:55:22,248][INFO ][plugins                  ] [Ape-X] modules [lang-groovy, reindex, lang-expression], plugins [head], sites [head]
+[2017-03-24 15:55:22,276][INFO ][env                      ] [Ape-X] using [1] data paths, mounts [[(F:)]], net usable_space [193.1gb], net total_space [289.4gb], spins? [unknown], types [NTFS]
+[2017-03-24 15:55:22,277][INFO ][env                      ] [Ape-X] heap size [910.5mb], compressed ordinary object pointers [true]
+[2017-03-24 15:55:26,160][INFO ][node                     ] [Ape-X] initialized
+[2017-03-24 15:55:26,161][INFO ][node                     ] [Ape-X] starting ...
+[2017-03-24 15:55:26,648][INFO ][transport                ] [Ape-X] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-03-24 15:55:26,653][INFO ][discovery                ] [Ape-X] elasticsearch/6BKUT1rWRMaRr-WsadCyJA
+[2017-03-24 15:55:30,687][INFO ][cluster.service          ] [Ape-X] new_master {Ape-X}{6BKUT1rWRMaRr-WsadCyJA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-03-24 15:55:31,149][INFO ][gateway                  ] [Ape-X] recovered [1] indices into cluster_state
+[2017-03-24 15:55:31,266][INFO ][http                     ] [Ape-X] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-03-24 15:55:31,266][INFO ][node                     ] [Ape-X] started
+[2017-03-24 15:55:33,325][INFO ][cluster.routing.allocation] [Ape-X] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[meeting_mark][3]] ...]).
+[2017-03-24 17:00:44,517][INFO ][node                     ] [Ape-X] stopping ...
+[2017-03-24 17:00:44,916][INFO ][node                     ] [Ape-X] stopped
+[2017-03-24 17:00:44,917][INFO ][node                     ] [Ape-X] closing ...
+[2017-03-24 17:00:44,936][INFO ][node                     ] [Ape-X] closed
+[2017-03-24 17:00:53,394][INFO ][node                     ] [Lighting Rod] version[2.3.2], pid[17244], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2017-03-24 17:00:53,394][INFO ][node                     ] [Lighting Rod] initializing ...
+[2017-03-24 17:00:54,021][INFO ][plugins                  ] [Lighting Rod] modules [lang-groovy, reindex, lang-expression], plugins [head], sites [head]
+[2017-03-24 17:00:54,046][INFO ][env                      ] [Lighting Rod] using [1] data paths, mounts [[(F:)]], net usable_space [193.1gb], net total_space [289.4gb], spins? [unknown], types [NTFS]
+[2017-03-24 17:00:54,047][INFO ][env                      ] [Lighting Rod] heap size [910.5mb], compressed ordinary object pointers [true]
+[2017-03-24 17:00:56,913][INFO ][node                     ] [Lighting Rod] initialized
+[2017-03-24 17:00:56,913][INFO ][node                     ] [Lighting Rod] starting ...
+[2017-03-24 17:00:57,356][INFO ][transport                ] [Lighting Rod] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-03-24 17:00:57,361][INFO ][discovery                ] [Lighting Rod] elasticsearch/1nfudgNsTyWYtXIR-msI-g
+[2017-03-24 17:01:01,397][INFO ][cluster.service          ] [Lighting Rod] new_master {Lighting Rod}{1nfudgNsTyWYtXIR-msI-g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-03-24 17:01:01,509][INFO ][gateway                  ] [Lighting Rod] recovered [0] indices into cluster_state
+[2017-03-24 17:01:01,796][INFO ][http                     ] [Lighting Rod] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-03-24 17:01:01,797][INFO ][node                     ] [Lighting Rod] started
+[2017-03-24 18:07:08,065][INFO ][node                     ] [Lighting Rod] stopping ...
+[2017-03-24 18:07:08,080][INFO ][node                     ] [Lighting Rod] stopped
+[2017-03-24 18:07:08,081][INFO ][node                     ] [Lighting Rod] closing ...
+[2017-03-24 18:07:08,088][INFO ][node                     ] [Lighting Rod] closed
+[2017-03-24 18:48:22,037][INFO ][node                     ] [Goldeneye] version[2.3.2], pid[9404], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2017-03-24 18:48:22,038][INFO ][node                     ] [Goldeneye] initializing ...
+[2017-03-24 18:48:22,983][INFO ][plugins                  ] [Goldeneye] modules [lang-groovy, reindex, lang-expression], plugins [head], sites [head]
+[2017-03-24 18:48:23,024][INFO ][env                      ] [Goldeneye] using [1] data paths, mounts [[(F:)]], net usable_space [193.1gb], net total_space [289.4gb], spins? [unknown], types [NTFS]
+[2017-03-24 18:48:23,024][INFO ][env                      ] [Goldeneye] heap size [910.5mb], compressed ordinary object pointers [true]
+[2017-03-24 18:48:26,346][INFO ][node                     ] [Goldeneye] initialized
+[2017-03-24 18:48:26,347][INFO ][node                     ] [Goldeneye] starting ...
+[2017-03-24 18:48:26,873][INFO ][transport                ] [Goldeneye] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-03-24 18:48:26,889][INFO ][discovery                ] [Goldeneye] elasticsearch/LwfRmsqnTtuN-PKrHM-D2A
+[2017-03-24 18:48:30,953][INFO ][cluster.service          ] [Goldeneye] new_master {Goldeneye}{LwfRmsqnTtuN-PKrHM-D2A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-03-24 18:48:31,245][INFO ][gateway                  ] [Goldeneye] recovered [0] indices into cluster_state
+[2017-03-24 18:48:31,354][INFO ][http                     ] [Goldeneye] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-03-24 18:48:31,355][INFO ][node                     ] [Goldeneye] started
+[2017-03-24 18:59:43,425][INFO ][node                     ] [Goldeneye] stopping ...
+[2017-03-24 18:59:43,465][INFO ][node                     ] [Goldeneye] stopped
+[2017-03-24 18:59:43,465][INFO ][node                     ] [Goldeneye] closing ...
+[2017-03-24 18:59:43,470][INFO ][node                     ] [Goldeneye] closed
+[2017-03-24 19:19:18,773][INFO ][node                     ] [Sputnik] version[2.3.2], pid[16252], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2017-03-24 19:19:18,773][INFO ][node                     ] [Sputnik] initializing ...
+[2017-03-24 19:19:19,303][INFO ][plugins                  ] [Sputnik] modules [lang-groovy, reindex, lang-expression], plugins [head], sites [head]
+[2017-03-24 19:19:19,324][INFO ][env                      ] [Sputnik] using [1] data paths, mounts [[(F:)]], net usable_space [193.1gb], net total_space [289.4gb], spins? [unknown], types [NTFS]
+[2017-03-24 19:19:19,324][INFO ][env                      ] [Sputnik] heap size [910.5mb], compressed ordinary object pointers [true]
+[2017-03-24 19:19:21,275][INFO ][node                     ] [Sputnik] initialized
+[2017-03-24 19:19:21,275][INFO ][node                     ] [Sputnik] starting ...
+[2017-03-24 19:19:21,519][INFO ][transport                ] [Sputnik] publish_address {192.168.3.2:9300}, bound_addresses {[::]:9300}
+[2017-03-24 19:19:21,523][INFO ][discovery                ] [Sputnik] elasticsearch/uq6k060rTIycwyTCVpMWAA
+[2017-03-24 19:19:25,556][INFO ][cluster.service          ] [Sputnik] new_master {Sputnik}{uq6k060rTIycwyTCVpMWAA}{192.168.3.2}{192.168.3.2:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-03-24 19:19:25,628][INFO ][gateway                  ] [Sputnik] recovered [0] indices into cluster_state
+[2017-03-24 19:19:25,773][INFO ][http                     ] [Sputnik] publish_address {192.168.3.2:9200}, bound_addresses {[::]:9200}
+[2017-03-24 19:19:25,773][INFO ][node                     ] [Sputnik] started
+[2017-03-24 19:26:33,503][INFO ][node                     ] [Sputnik] stopping ...
+[2017-03-24 19:26:33,521][INFO ][node                     ] [Sputnik] stopped
+[2017-03-24 19:26:33,521][INFO ][node                     ] [Sputnik] closing ...
+[2017-03-24 19:26:33,529][INFO ][node                     ] [Sputnik] closed

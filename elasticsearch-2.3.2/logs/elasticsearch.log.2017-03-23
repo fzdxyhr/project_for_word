@@ -1,0 +1,14 @@
+[2017-03-23 16:17:02,162][INFO ][node                     ] [Shatterstar] version[2.3.2], pid[16988], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2017-03-23 16:17:02,165][INFO ][node                     ] [Shatterstar] initializing ...
+[2017-03-23 16:17:03,466][INFO ][plugins                  ] [Shatterstar] modules [lang-groovy, reindex, lang-expression], plugins [head], sites [head]
+[2017-03-23 16:17:03,516][INFO ][env                      ] [Shatterstar] using [1] data paths, mounts [[(F:)]], net usable_space [193.1gb], net total_space [289.4gb], spins? [unknown], types [NTFS]
+[2017-03-23 16:17:03,516][INFO ][env                      ] [Shatterstar] heap size [910.5mb], compressed ordinary object pointers [true]
+[2017-03-23 16:17:08,369][INFO ][node                     ] [Shatterstar] initialized
+[2017-03-23 16:17:08,369][INFO ][node                     ] [Shatterstar] starting ...
+[2017-03-23 16:17:09,385][INFO ][transport                ] [Shatterstar] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-03-23 16:17:09,418][INFO ][discovery                ] [Shatterstar] elasticsearch/V0HI8Y0dTxOa2PGCAUNLeA
+[2017-03-23 16:17:13,455][INFO ][cluster.service          ] [Shatterstar] new_master {Shatterstar}{V0HI8Y0dTxOa2PGCAUNLeA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-03-23 16:17:13,870][INFO ][gateway                  ] [Shatterstar] recovered [1] indices into cluster_state
+[2017-03-23 16:17:13,904][INFO ][http                     ] [Shatterstar] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-03-23 16:17:13,905][INFO ][node                     ] [Shatterstar] started
+[2017-03-23 16:17:16,401][INFO ][cluster.routing.allocation] [Shatterstar] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[meeting_mark][2]] ...]).

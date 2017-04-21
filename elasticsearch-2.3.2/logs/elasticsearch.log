@@ -1,0 +1,71 @@
+[2017-04-21 09:46:01,182][INFO ][bootstrap                ] running graceful exit on windows
+[2017-04-21 09:46:01,189][INFO ][node                     ] [Mister Sensitive] stopping ...
+[2017-04-21 09:46:01,258][INFO ][node                     ] [Mister Sensitive] stopped
+[2017-04-21 09:46:01,258][INFO ][node                     ] [Mister Sensitive] closing ...
+[2017-04-21 09:46:01,262][INFO ][node                     ] [Mister Sensitive] closed
+[2017-04-21 11:04:57,681][WARN ][bootstrap                ] Workaround flag -XX:-UseSuperWord for bug https://bugs.openjdk.java.net/browse/JDK-8024830 found. 
+This will result in degraded performance!
+Upgrading is preferred, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+[2017-04-21 11:04:57,901][INFO ][node                     ] [Thane Ector] version[2.3.2], pid[19432], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2017-04-21 11:04:57,901][INFO ][node                     ] [Thane Ector] initializing ...
+[2017-04-21 11:04:58,391][INFO ][plugins                  ] [Thane Ector] modules [lang-groovy, reindex, lang-expression], plugins [head], sites [head]
+[2017-04-21 11:04:58,410][INFO ][env                      ] [Thane Ector] using [1] data paths, mounts [[软件 (D:)]], net usable_space [364.5gb], net total_space [464.9gb], spins? [unknown], types [NTFS]
+[2017-04-21 11:04:58,411][INFO ][env                      ] [Thane Ector] heap size [910.5mb], compressed ordinary object pointers [true]
+[2017-04-21 11:05:00,020][INFO ][node                     ] [Thane Ector] initialized
+[2017-04-21 11:05:00,021][INFO ][node                     ] [Thane Ector] starting ...
+[2017-04-21 11:05:00,370][INFO ][transport                ] [Thane Ector] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-04-21 11:05:00,373][INFO ][discovery                ] [Thane Ector] elasticsearch/b93vZ9ogS4mgxc5Ktl6mgQ
+[2017-04-21 11:05:04,430][INFO ][cluster.service          ] [Thane Ector] new_master {Thane Ector}{b93vZ9ogS4mgxc5Ktl6mgQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-04-21 11:05:04,778][INFO ][http                     ] [Thane Ector] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-04-21 11:05:04,778][INFO ][node                     ] [Thane Ector] started
+[2017-04-21 11:05:04,957][INFO ][gateway                  ] [Thane Ector] recovered [3] indices into cluster_state
+[2017-04-21 11:05:08,282][INFO ][cluster.routing.allocation] [Thane Ector] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[global_index][2], [global_index][2]] ...]).
+[2017-04-21 11:08:31,593][INFO ][bootstrap                ] running graceful exit on windows
+[2017-04-21 11:08:31,595][INFO ][node                     ] [Thane Ector] stopping ...
+[2017-04-21 11:08:31,701][INFO ][node                     ] [Thane Ector] stopped
+[2017-04-21 11:08:31,702][INFO ][node                     ] [Thane Ector] closing ...
+[2017-04-21 11:08:31,706][INFO ][node                     ] [Thane Ector] closed
+[2017-04-21 11:08:35,414][WARN ][bootstrap                ] Workaround flag -XX:-UseSuperWord for bug https://bugs.openjdk.java.net/browse/JDK-8024830 found. 
+This will result in degraded performance!
+Upgrading is preferred, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+[2017-04-21 11:08:35,637][INFO ][node                     ] [Whistler] version[2.3.2], pid[16592], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2017-04-21 11:08:35,637][INFO ][node                     ] [Whistler] initializing ...
+[2017-04-21 11:08:36,131][INFO ][plugins                  ] [Whistler] modules [lang-groovy, reindex, lang-expression], plugins [head], sites [head]
+[2017-04-21 11:08:36,153][INFO ][env                      ] [Whistler] using [1] data paths, mounts [[软件 (D:)]], net usable_space [364.5gb], net total_space [464.9gb], spins? [unknown], types [NTFS]
+[2017-04-21 11:08:36,154][INFO ][env                      ] [Whistler] heap size [910.5mb], compressed ordinary object pointers [true]
+[2017-04-21 11:08:37,735][INFO ][node                     ] [Whistler] initialized
+[2017-04-21 11:08:37,736][INFO ][node                     ] [Whistler] starting ...
+[2017-04-21 11:08:38,100][INFO ][transport                ] [Whistler] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-04-21 11:08:38,103][INFO ][discovery                ] [Whistler] elasticsearch/q-2BcO0zQmOvhycdgYJi4A
+[2017-04-21 11:08:42,164][INFO ][cluster.service          ] [Whistler] new_master {Whistler}{q-2BcO0zQmOvhycdgYJi4A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-04-21 11:08:42,523][INFO ][http                     ] [Whistler] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-04-21 11:08:42,524][INFO ][node                     ] [Whistler] started
+[2017-04-21 11:08:42,593][INFO ][gateway                  ] [Whistler] recovered [3] indices into cluster_state
+[2017-04-21 11:08:45,660][INFO ][cluster.routing.allocation] [Whistler] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[global_index][4], [global_index][4]] ...]).
+[2017-04-21 15:53:28,688][INFO ][bootstrap                ] running graceful exit on windows
+[2017-04-21 15:53:28,691][INFO ][node                     ] [Whistler] stopping ...
+[2017-04-21 15:53:28,770][INFO ][node                     ] [Whistler] stopped
+[2017-04-21 15:53:28,770][INFO ][node                     ] [Whistler] closing ...
+[2017-04-21 15:53:28,774][INFO ][node                     ] [Whistler] closed
+[2017-04-21 17:35:24,268][WARN ][bootstrap                ] Workaround flag -XX:-UseSuperWord for bug https://bugs.openjdk.java.net/browse/JDK-8024830 found. 
+This will result in degraded performance!
+Upgrading is preferred, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+[2017-04-21 17:35:24,495][INFO ][node                     ] [Agamemnon] version[2.3.2], pid[8232], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2017-04-21 17:35:24,495][INFO ][node                     ] [Agamemnon] initializing ...
+[2017-04-21 17:35:24,998][INFO ][plugins                  ] [Agamemnon] modules [lang-groovy, reindex, lang-expression], plugins [head], sites [head]
+[2017-04-21 17:35:25,018][INFO ][env                      ] [Agamemnon] using [1] data paths, mounts [[软件 (d:)]], net usable_space [364.4gb], net total_space [464.9gb], spins? [unknown], types [NTFS]
+[2017-04-21 17:35:25,018][INFO ][env                      ] [Agamemnon] heap size [910.5mb], compressed ordinary object pointers [true]
+[2017-04-21 17:35:26,619][INFO ][node                     ] [Agamemnon] initialized
+[2017-04-21 17:35:26,620][INFO ][node                     ] [Agamemnon] starting ...
+[2017-04-21 17:35:26,988][INFO ][transport                ] [Agamemnon] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-04-21 17:35:26,991][INFO ][discovery                ] [Agamemnon] elasticsearch/dIzGu6wGRP6CZFhdhmTnFA
+[2017-04-21 17:35:31,044][INFO ][cluster.service          ] [Agamemnon] new_master {Agamemnon}{dIzGu6wGRP6CZFhdhmTnFA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-04-21 17:35:31,388][INFO ][http                     ] [Agamemnon] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-04-21 17:35:31,388][INFO ][node                     ] [Agamemnon] started
+[2017-04-21 17:35:31,733][INFO ][gateway                  ] [Agamemnon] recovered [3] indices into cluster_state
+[2017-04-21 17:35:36,769][INFO ][cluster.routing.allocation] [Agamemnon] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[global_index][1]] ...]).
+[2017-04-21 17:50:08,765][INFO ][bootstrap                ] running graceful exit on windows
+[2017-04-21 17:50:08,767][INFO ][node                     ] [Agamemnon] stopping ...
+[2017-04-21 17:50:08,844][INFO ][node                     ] [Agamemnon] stopped
+[2017-04-21 17:50:08,845][INFO ][node                     ] [Agamemnon] closing ...
+[2017-04-21 17:50:08,849][INFO ][node                     ] [Agamemnon] closed

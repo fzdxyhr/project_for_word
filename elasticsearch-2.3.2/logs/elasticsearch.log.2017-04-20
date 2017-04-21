@@ -1,0 +1,704 @@
+[2017-04-20 10:43:17,558][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: Java version: Oracle Corporation 1.7.0_45 [Java HotSpot(TM) 64-Bit Server VM 24.45-b08] suffers from critical bug https://bugs.openjdk.java.net/browse/JDK-8024830 which can cause data corruption.
+Please upgrade the JVM, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+If you absolutely cannot upgrade, please add -XX:-UseSuperWord to the JAVA_OPTS environment variable.
+Upgrading is preferred, this workaround will result in degraded performance.
+	at org.elasticsearch.bootstrap.JVMCheck.check(JVMCheck.java:123)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:268)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-04-20 10:43:37,561][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: Java version: Oracle Corporation 1.7.0_45 [Java HotSpot(TM) 64-Bit Server VM 24.45-b08] suffers from critical bug https://bugs.openjdk.java.net/browse/JDK-8024830 which can cause data corruption.
+Please upgrade the JVM, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+If you absolutely cannot upgrade, please add -XX:-UseSuperWord to the JAVA_OPTS environment variable.
+Upgrading is preferred, this workaround will result in degraded performance.
+	at org.elasticsearch.bootstrap.JVMCheck.check(JVMCheck.java:123)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:268)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-04-20 10:48:46,315][WARN ][bootstrap                ] Workaround flag -XX:-UseSuperWord for bug https://bugs.openjdk.java.net/browse/JDK-8024830 found. 
+This will result in degraded performance!
+Upgrading is preferred, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+[2017-04-20 10:48:46,663][INFO ][node                     ] [Vance Astro] version[2.3.2], pid[1668], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2017-04-20 10:48:46,663][INFO ][node                     ] [Vance Astro] initializing ...
+[2017-04-20 10:48:47,108][INFO ][plugins                  ] [Vance Astro] modules [lang-groovy, reindex, lang-expression], plugins [head], sites [head]
+[2017-04-20 10:48:47,139][INFO ][env                      ] [Vance Astro] using [1] data paths, mounts [[软件 (D:)]], net usable_space [364.5gb], net total_space [464.9gb], spins? [unknown], types [NTFS]
+[2017-04-20 10:48:47,139][INFO ][env                      ] [Vance Astro] heap size [910.5mb], compressed ordinary object pointers [true]
+[2017-04-20 10:48:48,772][INFO ][node                     ] [Vance Astro] initialized
+[2017-04-20 10:48:48,773][INFO ][node                     ] [Vance Astro] starting ...
+[2017-04-20 10:48:49,119][INFO ][transport                ] [Vance Astro] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-04-20 10:48:49,134][INFO ][discovery                ] [Vance Astro] elasticsearch/Rly1itBKSLqkD0U470-MVQ
+[2017-04-20 10:48:53,210][INFO ][cluster.service          ] [Vance Astro] new_master {Vance Astro}{Rly1itBKSLqkD0U470-MVQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-04-20 10:48:53,489][INFO ][gateway                  ] [Vance Astro] recovered [2] indices into cluster_state
+[2017-04-20 10:48:53,543][INFO ][http                     ] [Vance Astro] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-04-20 10:48:53,544][INFO ][node                     ] [Vance Astro] started
+[2017-04-20 10:48:56,407][INFO ][cluster.routing.allocation] [Vance Astro] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[global_index][1]] ...]).
+[2017-04-20 10:48:58,425][INFO ][bootstrap                ] running graceful exit on windows
+[2017-04-20 10:48:58,440][INFO ][node                     ] [Vance Astro] stopping ...
+[2017-04-20 10:48:58,518][INFO ][node                     ] [Vance Astro] stopped
+[2017-04-20 10:48:58,518][INFO ][node                     ] [Vance Astro] closing ...
+[2017-04-20 10:48:58,537][INFO ][node                     ] [Vance Astro] closed
+[2017-04-20 10:49:09,601][WARN ][bootstrap                ] Workaround flag -XX:-UseSuperWord for bug https://bugs.openjdk.java.net/browse/JDK-8024830 found. 
+This will result in degraded performance!
+Upgrading is preferred, see http://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html for current recommendations.
+[2017-04-20 10:49:09,928][INFO ][node                     ] [Mister Sensitive] version[2.3.2], pid[11820], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2017-04-20 10:49:09,928][INFO ][node                     ] [Mister Sensitive] initializing ...
+[2017-04-20 10:49:10,386][INFO ][plugins                  ] [Mister Sensitive] modules [lang-groovy, reindex, lang-expression], plugins [head], sites [head]
+[2017-04-20 10:49:10,406][INFO ][env                      ] [Mister Sensitive] using [1] data paths, mounts [[软件 (D:)]], net usable_space [364.5gb], net total_space [464.9gb], spins? [unknown], types [NTFS]
+[2017-04-20 10:49:10,407][INFO ][env                      ] [Mister Sensitive] heap size [910.5mb], compressed ordinary object pointers [true]
+[2017-04-20 10:49:11,835][INFO ][node                     ] [Mister Sensitive] initialized
+[2017-04-20 10:49:11,835][INFO ][node                     ] [Mister Sensitive] starting ...
+[2017-04-20 10:49:12,210][INFO ][transport                ] [Mister Sensitive] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-04-20 10:49:12,214][INFO ][discovery                ] [Mister Sensitive] elasticsearch/MnhbG5f8RNuEQCSMp9tB4Q
+[2017-04-20 10:49:16,282][INFO ][cluster.service          ] [Mister Sensitive] new_master {Mister Sensitive}{MnhbG5f8RNuEQCSMp9tB4Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-04-20 10:49:16,548][INFO ][gateway                  ] [Mister Sensitive] recovered [2] indices into cluster_state
+[2017-04-20 10:49:16,623][INFO ][http                     ] [Mister Sensitive] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-04-20 10:49:16,623][INFO ][node                     ] [Mister Sensitive] started
+[2017-04-20 10:49:18,633][INFO ][cluster.routing.allocation] [Mister Sensitive] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[global_index][4]] ...]).
+[2017-04-20 13:56:21,773][DEBUG][action.search            ] [Mister Sensitive] [global_index][4], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[10], s[STARTED], a[id=7bcdGnGbQNqIiMzJvTxTfg]: Failed to execute [org.elasticsearch.action.search.SearchRequest@900d0b7] lastShard [true]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+Caused by: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: SearchParseException[failed to parse search source. unknown search element [user]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 12 more
+[2017-04-20 13:56:21,773][DEBUG][action.search            ] [Mister Sensitive] [global_index][2], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[10], s[STARTED], a[id=wRXk0zRcSl2GWvLvG8C2JQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@900d0b7] lastShard [true]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+Caused by: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: SearchParseException[failed to parse search source. unknown search element [user]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 12 more
+[2017-04-20 13:56:21,773][DEBUG][action.search            ] [Mister Sensitive] [note_index][3], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[6], s[STARTED], a[id=7IbT4D94QD26powhkxD6mQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@900d0b7] lastShard [true]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+Caused by: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: SearchParseException[failed to parse search source. unknown search element [user]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 12 more
+[2017-04-20 13:56:21,773][DEBUG][action.search            ] [Mister Sensitive] [global_index][3], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[10], s[STARTED], a[id=t-OeideMQRurT5f779AyJw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@900d0b7] lastShard [true]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+Caused by: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: SearchParseException[failed to parse search source. unknown search element [user]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 12 more
+[2017-04-20 13:56:21,773][DEBUG][action.search            ] [Mister Sensitive] [note_index][4], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[6], s[STARTED], a[id=s7wblLe6TGmQBYDUB2fWtw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@900d0b7] lastShard [true]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+Caused by: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: SearchParseException[failed to parse search source. unknown search element [user]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 12 more
+[2017-04-20 13:56:21,773][DEBUG][action.search            ] [Mister Sensitive] [note_index][1], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[6], s[STARTED], a[id=cpWVPp8xTdyLBIMvuVQT6g]: Failed to execute [org.elasticsearch.action.search.SearchRequest@900d0b7] lastShard [true]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+Caused by: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: SearchParseException[failed to parse search source. unknown search element [user]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 12 more
+[2017-04-20 13:56:21,773][DEBUG][action.search            ] [Mister Sensitive] [global_index][1], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[10], s[STARTED], a[id=JNZO1qFvTQGd66XMH5ToeQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@900d0b7]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+Caused by: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: SearchParseException[failed to parse search source. unknown search element [user]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 12 more
+[2017-04-20 13:56:21,773][DEBUG][action.search            ] [Mister Sensitive] [global_index][0], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[10], s[STARTED], a[id=Dxb9fXdyQZupplCumAJjdQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@900d0b7] lastShard [true]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+Caused by: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: SearchParseException[failed to parse search source. unknown search element [user]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 12 more
+[2017-04-20 13:56:21,773][DEBUG][action.search            ] [Mister Sensitive] [note_index][2], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[6], s[STARTED], a[id=FBBgYoc0SY-AWY9VrqTJMw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@900d0b7] lastShard [true]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+Caused by: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: SearchParseException[failed to parse search source. unknown search element [user]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 12 more
+[2017-04-20 13:56:21,773][DEBUG][action.search            ] [Mister Sensitive] [note_index][0], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[6], s[STARTED], a[id=CVbSMHbCSoub_g_VIBSyWw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@900d0b7] lastShard [true]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+Caused by: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: SearchParseException[failed to parse search source. unknown search element [user]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 12 more
+[2017-04-20 13:56:21,787][DEBUG][action.search            ] [Mister Sensitive] All shards failed for phase: [query]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+Caused by: SearchParseException[failed to parse search source [{"user":{"_parent":{"type":"test"},"properties":{"first":{"type":"string"},"last":{"type":"string"}}}}]]; nested: SearchParseException[failed to parse search source. unknown search element [user]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: SearchParseException[failed to parse search source. unknown search element [user]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 12 more
+[2017-04-20 14:05:54,834][INFO ][cluster.metadata         ] [Mister Sensitive] [test] creating index, cause [api], templates [], shards [5]/[1], mappings [student, clazz]
+[2017-04-20 14:05:56,409][INFO ][cluster.routing.allocation] [Mister Sensitive] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4]] ...]).
+[2017-04-20 14:09:48,679][INFO ][cluster.metadata         ] [Mister Sensitive] [test] update_mapping [clazz]
+[2017-04-20 14:22:06,357][INFO ][cluster.metadata         ] [Mister Sensitive] [test] update_mapping [student]
+[2017-04-20 14:27:31,707][INFO ][cluster.metadata         ] [Mister Sensitive] [test] update_mapping [clazz]
+[2017-04-20 14:53:29,410][INFO ][cluster.metadata         ] [Mister Sensitive] [test] update_mapping [clazz]
+[2017-04-20 16:20:39,003][DEBUG][action.search            ] [Mister Sensitive] [test][4], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[2], s[STARTED], a[id=g-umvEbQSp2e9XMK12jElA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@545fd6c9] lastShard [true]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{"name":"123"},"has_parent":{"type":"clazz","query":{"match":{"name":"yyyy"}}}}}]]; nested: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{"name":"123"},"has_parent":{"type":"clazz","query":{"match":{"name":"yyyy"}}}}}]]; nested: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 12 more
+[2017-04-20 16:20:39,006][DEBUG][action.search            ] [Mister Sensitive] [test][3], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[2], s[STARTED], a[id=AWhhVTChT9WrHmw5Ar62YQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@545fd6c9] lastShard [true]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{"name":"123"},"has_parent":{"type":"clazz","query":{"match":{"name":"yyyy"}}}}}]]; nested: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{"name":"123"},"has_parent":{"type":"clazz","query":{"match":{"name":"yyyy"}}}}}]]; nested: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 12 more
+[2017-04-20 16:20:39,004][DEBUG][action.search            ] [Mister Sensitive] [test][2], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[2], s[STARTED], a[id=l-zzEJreQ5iMkmiv4j2JGA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@545fd6c9] lastShard [true]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{"name":"123"},"has_parent":{"type":"clazz","query":{"match":{"name":"yyyy"}}}}}]]; nested: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{"name":"123"},"has_parent":{"type":"clazz","query":{"match":{"name":"yyyy"}}}}}]]; nested: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 12 more
+[2017-04-20 16:20:39,003][DEBUG][action.search            ] [Mister Sensitive] [test][1], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[2], s[STARTED], a[id=qDJNQALhSU-18YtapBfvWQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@545fd6c9] lastShard [true]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{"name":"123"},"has_parent":{"type":"clazz","query":{"match":{"name":"yyyy"}}}}}]]; nested: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{"name":"123"},"has_parent":{"type":"clazz","query":{"match":{"name":"yyyy"}}}}}]]; nested: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 12 more
+[2017-04-20 16:20:39,007][DEBUG][action.search            ] [Mister Sensitive] [test][0], node[MnhbG5f8RNuEQCSMp9tB4Q], [P], v[2], s[STARTED], a[id=sX6K3VJwQHWzAVTTXUeSsA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@545fd6c9]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{"name":"123"},"has_parent":{"type":"clazz","query":{"match":{"name":"yyyy"}}}}}]]; nested: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{"name":"123"},"has_parent":{"type":"clazz","query":{"match":{"name":"yyyy"}}}}}]]; nested: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 12 more
+[2017-04-20 16:20:39,019][DEBUG][action.search            ] [Mister Sensitive] All shards failed for phase: [query]
+RemoteTransportException[[Mister Sensitive][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{"name":"123"},"has_parent":{"type":"clazz","query":{"match":{"name":"yyyy"}}}}}]]; nested: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{"name":"123"},"has_parent":{"type":"clazz","query":{"match":{"name":"yyyy"}}}}}]]; nested: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: ElasticsearchParseException[failed to parse search source. expected field name but got [START_OBJECT]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 12 more
+[2017-04-20 16:59:51,297][WARN ][action.delete            ] [Mister Sensitive] unexpected error during the primary phase for action [indices:data/write/delete], request [delete {[test][student][s3]}]
+[test] RoutingMissingException[routing is required for [test]/[student]/[s3]]
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveAndValidateRouting(TransportDeleteAction.java:118)
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveRequest(TransportDeleteAction.java:100)
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveRequest(TransportDeleteAction.java:54)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:458)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.doExecute(TransportReplicationAction.java:131)
+	at org.elasticsearch.action.delete.TransportDeleteAction.innerExecute(TransportDeleteAction.java:125)
+	at org.elasticsearch.action.delete.TransportDeleteAction.doExecute(TransportDeleteAction.java:94)
+	at org.elasticsearch.action.delete.TransportDeleteAction.doExecute(TransportDeleteAction.java:54)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:137)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:85)
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:58)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:359)
+	at org.elasticsearch.client.FilterClient.doExecute(FilterClient.java:52)
+	at org.elasticsearch.rest.BaseRestHandler$HeadersAndContextCopyClient.doExecute(BaseRestHandler.java:83)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:359)
+	at org.elasticsearch.client.support.AbstractClient.delete(AbstractClient.java:416)
+	at org.elasticsearch.rest.action.delete.RestDeleteAction.handleRequest(RestDeleteAction.java:65)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:205)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:449)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:61)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2017-04-20 17:00:05,451][WARN ][action.delete            ] [Mister Sensitive] unexpected error during the primary phase for action [indices:data/write/delete], request [delete {[test][student][s3]}]
+[test] RoutingMissingException[routing is required for [test]/[student]/[s3]]
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveAndValidateRouting(TransportDeleteAction.java:118)
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveRequest(TransportDeleteAction.java:100)
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveRequest(TransportDeleteAction.java:54)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:458)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.doExecute(TransportReplicationAction.java:131)
+	at org.elasticsearch.action.delete.TransportDeleteAction.innerExecute(TransportDeleteAction.java:125)
+	at org.elasticsearch.action.delete.TransportDeleteAction.doExecute(TransportDeleteAction.java:94)
+	at org.elasticsearch.action.delete.TransportDeleteAction.doExecute(TransportDeleteAction.java:54)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:137)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:85)
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:58)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:359)
+	at org.elasticsearch.client.FilterClient.doExecute(FilterClient.java:52)
+	at org.elasticsearch.rest.BaseRestHandler$HeadersAndContextCopyClient.doExecute(BaseRestHandler.java:83)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:359)
+	at org.elasticsearch.client.support.AbstractClient.delete(AbstractClient.java:416)
+	at org.elasticsearch.rest.action.delete.RestDeleteAction.handleRequest(RestDeleteAction.java:65)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:205)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:449)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:61)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2017-04-20 17:00:07,601][WARN ][action.delete            ] [Mister Sensitive] unexpected error during the primary phase for action [indices:data/write/delete], request [delete {[test][student][s3]}]
+[test] RoutingMissingException[routing is required for [test]/[student]/[s3]]
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveAndValidateRouting(TransportDeleteAction.java:118)
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveRequest(TransportDeleteAction.java:100)
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveRequest(TransportDeleteAction.java:54)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:458)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.doExecute(TransportReplicationAction.java:131)
+	at org.elasticsearch.action.delete.TransportDeleteAction.innerExecute(TransportDeleteAction.java:125)
+	at org.elasticsearch.action.delete.TransportDeleteAction.doExecute(TransportDeleteAction.java:94)
+	at org.elasticsearch.action.delete.TransportDeleteAction.doExecute(TransportDeleteAction.java:54)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:137)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:85)
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:58)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:359)
+	at org.elasticsearch.client.FilterClient.doExecute(FilterClient.java:52)
+	at org.elasticsearch.rest.BaseRestHandler$HeadersAndContextCopyClient.doExecute(BaseRestHandler.java:83)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:359)
+	at org.elasticsearch.client.support.AbstractClient.delete(AbstractClient.java:416)
+	at org.elasticsearch.rest.action.delete.RestDeleteAction.handleRequest(RestDeleteAction.java:65)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:205)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:449)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:61)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2017-04-20 17:00:13,611][WARN ][action.delete            ] [Mister Sensitive] unexpected error during the primary phase for action [indices:data/write/delete], request [delete {[test][student][s3]}]
+[test] RoutingMissingException[routing is required for [test]/[student]/[s3]]
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveAndValidateRouting(TransportDeleteAction.java:118)
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveRequest(TransportDeleteAction.java:100)
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveRequest(TransportDeleteAction.java:54)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:458)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.doExecute(TransportReplicationAction.java:131)
+	at org.elasticsearch.action.delete.TransportDeleteAction.innerExecute(TransportDeleteAction.java:125)
+	at org.elasticsearch.action.delete.TransportDeleteAction.doExecute(TransportDeleteAction.java:94)
+	at org.elasticsearch.action.delete.TransportDeleteAction.doExecute(TransportDeleteAction.java:54)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:137)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:85)
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:58)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:359)
+	at org.elasticsearch.client.FilterClient.doExecute(FilterClient.java:52)
+	at org.elasticsearch.rest.BaseRestHandler$HeadersAndContextCopyClient.doExecute(BaseRestHandler.java:83)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:359)
+	at org.elasticsearch.client.support.AbstractClient.delete(AbstractClient.java:416)
+	at org.elasticsearch.rest.action.delete.RestDeleteAction.handleRequest(RestDeleteAction.java:65)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:205)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:449)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:61)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2017-04-20 17:01:50,660][WARN ][action.delete            ] [Mister Sensitive] unexpected error during the primary phase for action [indices:data/write/delete], request [delete {[test][student][s4]}]
+[test] RoutingMissingException[routing is required for [test]/[student]/[s4]]
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveAndValidateRouting(TransportDeleteAction.java:118)
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveRequest(TransportDeleteAction.java:100)
+	at org.elasticsearch.action.delete.TransportDeleteAction.resolveRequest(TransportDeleteAction.java:54)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:458)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.doExecute(TransportReplicationAction.java:131)
+	at org.elasticsearch.action.delete.TransportDeleteAction.innerExecute(TransportDeleteAction.java:125)
+	at org.elasticsearch.action.delete.TransportDeleteAction.doExecute(TransportDeleteAction.java:94)
+	at org.elasticsearch.action.delete.TransportDeleteAction.doExecute(TransportDeleteAction.java:54)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:137)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:85)
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:58)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:359)
+	at org.elasticsearch.client.FilterClient.doExecute(FilterClient.java:52)
+	at org.elasticsearch.rest.BaseRestHandler$HeadersAndContextCopyClient.doExecute(BaseRestHandler.java:83)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:359)
+	at org.elasticsearch.client.support.AbstractClient.delete(AbstractClient.java:416)
+	at org.elasticsearch.rest.action.delete.RestDeleteAction.handleRequest(RestDeleteAction.java:65)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:205)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:449)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:61)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
